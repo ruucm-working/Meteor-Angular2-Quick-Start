@@ -11,11 +11,12 @@ I used source from below sites.
 # Usage
 
 You should install meteor before run
+[More Details](https://www.meteor.com/install)
 
 ```
 curl https://install.meteor.com/ | sh
 ```
-
+Clone this repo
 ```
 git clone git@github.com:ruucm/Meteor-Angular2-Quick-Start.git
 ```
@@ -24,7 +25,7 @@ git clone git@github.com:ruucm/Meteor-Angular2-Quick-Start.git
 npm install
 ```
 
-then, simply type
+Then, simply type
 ```
 meteor
 ```
