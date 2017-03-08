@@ -20,12 +20,15 @@ Clone this repo
 ```
 git clone git@github.com:ruucm/Meteor-Angular2-Quick-Start.git
 ```
-
+Go to your cloned repo directory.
+```
+cd Meteor-Angular2-Quick-Start
+```
 ```
 npm install
 ```
 
-Then, simply type
+Then, simply type to run Meteor-Angular2
 ```
 meteor
 ```
