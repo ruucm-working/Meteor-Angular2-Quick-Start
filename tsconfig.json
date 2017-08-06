@@ -15,10 +15,15 @@
     "target": "es5",
     "skipLibCheck": true,
     "stripInternal": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "types": [
       "meteor-typings",
       "@types/underscore"
+    ],
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": [
+      "node_modules/@types"
     ]
   },
   "include": [
@@ -27,8 +32,18 @@
     "imports/**/*.ts"
   ],
   "exclude": [
+    "bower_components",
     "node_modules"
   ],
+  "angularCompilerOptions": {
+    "genDir": ".",
+    "skipMetadataEmit": true
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useTranspileModule": true,
+    "usePrecompiledFiles": true,
+    "useWebpackText": true
+  },
   "compileOnSave": false,
   "atom": {
     "rewriteTsconfig": false
